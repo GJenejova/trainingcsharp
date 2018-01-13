@@ -12,6 +12,8 @@ namespace Consoletest
         {
             Console.WriteLine("Hello");
             string name = Console.ReadLine();
+            bool nameIsAdam = name == "Adam";
+            Console.WriteLine("Your name is Adam: " + nameIsAdam);
             Console.WriteLine("Your name is: " + name);
 
             Console.ReadKey();
