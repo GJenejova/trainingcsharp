@@ -10,6 +10,11 @@ namespace Consoletest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
+            string name = Console.ReadLine();
+            Console.WriteLine("Your name is: " + name);
+
+            Console.ReadKey();
         }
     }
 }
