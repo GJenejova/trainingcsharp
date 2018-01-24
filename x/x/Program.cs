@@ -4,14 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntroducingCS
+namespace x
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello, world!");
-            Console.ReadKey();
+            int x = 10;
+            Console.WriteLine(x++);
+            Console.WriteLine(x);
+            Console.WriteLine(++x);
+            Console.WriteLine(x);
         }
     }
 }
